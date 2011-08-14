@@ -11,6 +11,16 @@ Installing puppet-aptitude is easy. You have a few options:
 1. Install From Git
 -------------------
 
+To install via Git, all you need to do is clone a copy of the puppet-aptitude
+repository like so::
+
+    git clone git://github.com/rdegges/puppet-aptitude.git aptitude
+
+That will clone puppet-aptitude into a folder named ``aptitude``. Then you can
+simply copy that file over to your puppet module directory, usually::
+
+    cp -R aptitude /etc/puppet/modules/
+
 2. Install as a Git Submodule
 -----------------------------
 
