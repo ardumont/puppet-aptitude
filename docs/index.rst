@@ -19,3 +19,4 @@ User's Guide
 
    install
    use
+   faq
