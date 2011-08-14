@@ -11,7 +11,8 @@ puppet-aptitude is a reusable `puppet <http://www.puppetlabs.com/>`_ module for
 
 Using puppet-aptitude is easy, and takes about 2 minutes to get up and running.
 
-Contents:
+User's Guide
+------------
 
 .. toctree::
    :maxdepth: 2
