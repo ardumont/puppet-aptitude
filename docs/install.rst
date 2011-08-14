@@ -1,0 +1,41 @@
+Installation
+============
+
+Installing puppet-aptitude is easy. You have a few options:
+
+.. note::
+    puppet-aptitude is only meant for use with ubuntu systems. If you are
+    managing non-ubuntu systems via puppet, ensure that puppet-aptitude is not
+    installed on those nodes.
+
+1. Install From Git
+-------------------
+
+2. Install as a Git Submodule
+-----------------------------
+
+If your puppet server is managed via Git itself, you may want to install
+puppet-aptitude as a Git submodule, so that you can pull in future updates.
+
+Assuming that your puppet Git repo is setup as follows::
+
+    puppet/.git
+    puppet/modules/...
+
+You can simply run the command::
+
+    git submodule add git://github.com/rdegges/puppet-aptitude.git modules/aptitude
+
+Then, if you ever want to pull updates from puppet-aptitude (if there is ever a
+new release or whatever), you can simply run::
+
+    cd modules/aptitude
+    git fetch origin master:master
+    git checkout master
+    git pull
+    cd ../..
+    git add modules/aptitude
+    git commit -m "updating puppet-aptitude to latest version"
+
+3. Install From Tarball
+-----------------------
