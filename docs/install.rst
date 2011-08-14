@@ -32,7 +32,7 @@ Assuming that your puppet Git repo is setup as follows::
     puppet/.git
     puppet/modules/...
 
-You can simply run the command::
+You can simply run the following command from within the puppet directory::
 
     git submodule add git://github.com/rdegges/puppet-aptitude.git modules/aptitude
 
