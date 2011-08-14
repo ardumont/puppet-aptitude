@@ -49,3 +49,11 @@ new release or whatever), you can simply run::
 
 3. Install From Tarball
 -----------------------
+
+Lastly, if you want to avoid using Git at all, you can, of course, simply
+download the puppet-aptitude tarball, and unzip it into your puppet server's
+module directory (typically ``/etc/puppet/modules``).
+
+You can download the latest version of puppet-aptitude on the `official GitHub
+page <https://github.com/rdegges/puppet-aptitude>`_ (just click the big download
+button).
