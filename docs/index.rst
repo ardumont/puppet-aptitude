@@ -18,3 +18,4 @@ User's Guide
    :maxdepth: 2
 
    install
+   use
