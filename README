@@ -18,3 +18,15 @@ installed and contains an up-to-date package list.
 Additionally, this module allows you to:
 
     - Automatically update all system packages (default: off).
+
+Docs
+====
+
+To learn how to install and use puppet-aptitude, read our official
+documentation: http://puppet-aptitude.rtfd.org/
+
+License
+=======
+
+puppet-aptitude is distributed under the UNLICENSE license. For details, see:
+http://unlicense.org/
